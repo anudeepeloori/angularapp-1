@@ -6,5 +6,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MyAngularApp';
+  users=[];
+
+ 
+  addUserData(ref){
+
+    let userObj=ref.value;
+    
+    //push into users array
+    this.users.push(userObj)
+
+    //clear form flields
+    ref.reset();
+  }
+   
+  deleteUser(index){
+    this.users.splice(index,1)
+  }
+
+
 }
+
+
