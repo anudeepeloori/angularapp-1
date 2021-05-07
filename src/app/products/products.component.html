@@ -1,6 +1,7 @@
-
+<p class="text-center text-danger bg-warning">Photographs Viewed:{{productCount}} </p>
+<p *ngFor="let title of productsSentByChild" class="text-center text-info">{{title}} </p>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 p-4">
-    <div class="col" *ngFor="let p of products">       
-        <app-product-details></app-product-details>
+    <div class="col" *ngFor="let prObj of products">       
+        <app-product-details [productObj]=prObj (myEvent)="getProductDetailsFromChild($event)" ></app-product-details>
     </div>
 </div>
