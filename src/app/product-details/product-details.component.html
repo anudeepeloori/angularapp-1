@@ -1,19 +1,17 @@
 
-<div class="card">
+<div class="card bg-info text-dark " >
 
-              <img src={{productObj.productImage}}>
-
+              <img class=" bg-white " height="400px" src={{productObj.productImage}}>
               <div class="card-body ">
                   <h5 class="card-title">{{productObj.productTitle}}
                   </h5>
-                  <p class="card-text">{{productObj.description}} </p>
-                  <div class="btn-group border rounded ">
+                  <p class="card-text">Model :{{productObj.productBrand}} </p>
+                  <p class="card-text"> Price : {{productObj.productPrice}} </p>
+                  <div class="btn-group border rounded bg-white  ">
                     <button class="btn btn-sm border-end border-dark btn-outline-secondary" (click)="sendProductDetailsToParent(productObj.productTitle)">view</button>
-                    <button class="btn btn-sm border-dark btn-outline-secondary ">edit</button>
+                    <button class="btn btn-sm border-dark btn-outline-secondary ">Buy</button>
                    </div>
                  
                </div>
-
-               
 
 </div>

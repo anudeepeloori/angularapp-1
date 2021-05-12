@@ -1,0 +1,16 @@
+li{
+    background-color:	#a2b1ff;
+
+}
+
+li a{
+    color:black;
+}
+
+
+
+.active.nav-link{
+    background-color: ivory;
+    color:mediumorchid;
+    box-shadow: mediumspringgreen;
+}

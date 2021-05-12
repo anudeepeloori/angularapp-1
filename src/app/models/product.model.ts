@@ -1,5 +1,6 @@
 export interface product{
     productTitle:string;
-    description:string;
+    productBrand:string;
+    productPrice:string;
     productImage:string
 }
