@@ -14,8 +14,9 @@ export class TelevisionsComponent implements OnInit {
   constructor(private tsObj:TelevisionsService) { }
 
   ngOnInit(): void {
-    this.televisions=this.tsObj.getTelevisionsData();
+    this.tsObj.getTelevisionsData().subscribe(
+      data=>{this.televisions=data},
+      err=>{console.log("error is ",err)}
+    )
   }
-   
-
 }

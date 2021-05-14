@@ -14,8 +14,10 @@ export class MobilesComponent implements OnInit {
   constructor(private msObj:MobilesService) { }
 
   ngOnInit(): void {
-
-    this.mobiles=this.msObj.getMobilesData();
+    this.msObj.getMobilesData().subscribe(
+      data=>{this.mobiles=data;},
+      err=>{console.log("error is",err)}
+    )
   }
 
   

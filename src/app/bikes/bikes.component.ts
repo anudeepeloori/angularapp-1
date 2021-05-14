@@ -14,7 +14,10 @@ export class BikesComponent implements OnInit {
   constructor(private bsObj:BikesService) { }
 
   ngOnInit(): void {
-    this.bikes=this.bsObj.getBikesData();
+    this.bsObj.getBikesData().subscribe(
+      data=>{this.bikes=data;},
+      err=>{console.log("error",err)}
+    )
   }
 
   
