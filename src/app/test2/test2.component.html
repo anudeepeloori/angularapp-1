@@ -1,0 +1,22 @@
+<div class=" mt-5 mb-5 p-2" style="background-color: 	#e9c9ff;">
+<table class="table text-dark text-center mt-5 mb-5">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Colour</th>
+            <th>Pantone value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let postObj of myPosts2.data">
+            <td >{{postObj.id}} </td>
+            <td >{{postObj.name}} </td>
+            <td >{{postObj.year}} </td>
+            <td ><p style="background-color:{{postObj.color}};" class="p-4"></p> </td>
+            <td>{{postObj.pantone_value}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

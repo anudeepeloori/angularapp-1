@@ -9,6 +9,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ProductsComponent } from './products/products.component';
 import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
+import { TestComponent } from './test/test.component';
+import { Test2Component } from './test2/test2.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -21,6 +23,8 @@ const routes: Routes = [
     {path:"televisions",component:TelevisionsComponent},
     {path:'',redirectTo:'/products/mobiles',pathMatch:'full'}
   ]},
+  {path:'users',component:TestComponent},
+  {path:'newusers',component:Test2Component},
   { path:'', redirectTo:'/home',pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}
 ];
