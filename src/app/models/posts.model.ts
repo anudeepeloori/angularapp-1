@@ -1,10 +1,13 @@
 export interface Post{
    id:number;
+   address:any;
    name:string;
-   username:string;
    email:string;
-   street:string;
-   city:string;
-   suite:string;
-   zipcode:string;
+   profilePic:string;
+   state:string;
+   streetname:string;
+   cityname:string;
+   pincode:string;
+   profession:string;
+   mobileno:string
 }

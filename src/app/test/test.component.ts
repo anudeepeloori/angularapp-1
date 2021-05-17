@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import{ FakedataService } from'../fakedata.service'
+import { Router } from '@angular/router';
+import{ FakedataService } from'../fakedata.service';
 import { Post } from '../models/posts.model';
 
 
@@ -11,19 +12,28 @@ import { Post } from '../models/posts.model';
 })
 export class TestComponent implements OnInit {
 
-  myPosts:Post[]=[];
-  constructor(private fsObj:FakedataService) { }
+  myPosts:Post;
+  users;
+  constructor(private fsObj:FakedataService,private router:Router) { }
 
 
   ngOnInit(): void {
 
-
-    this.fsObj.getPosts().subscribe(
-      postsData=>{
-        this.myPosts=postsData;
+  
+      this.fsObj.getPosts().subscribe(
+      userData=>{
+       this.users=userData;
       },
-      err=>{console.log("error is ",err)}
-    )
+      err=>{
+        console.log("error is ",err)
+      }
+      )
+
+  }
+  onSelectId(id){
+    this.router.navigateByUrl('test/'+id)
   }
 
+  
 }
+

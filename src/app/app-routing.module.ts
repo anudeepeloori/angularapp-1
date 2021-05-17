@@ -11,6 +11,7 @@ import { RegisterComponent } from './register/register.component';
 import { TelevisionsComponent } from './televisions/televisions.component';
 import { TestComponent } from './test/test.component';
 import { Test2Component } from './test2/test2.component';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
   ]},
   {path:'users',component:TestComponent},
   {path:'newusers',component:Test2Component},
+  {path:'test/:id',component:UserdetailsComponent},
   { path:'', redirectTo:'/home',pathMatch:'full'},
   {path:'**', component:PagenotfoundComponent}
 ];

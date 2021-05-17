@@ -11,7 +11,13 @@ export class FakedataService {
 
   constructor(private hc:HttpClient) { }
 
+
   getPosts():Observable<Post[]>{
-    return this.hc.get<Post[]>('https://jsonplaceholder.typicode.com/users')
+    return this.hc.get<Post[]>('http://localhost:3000/usersdata')
+  }
+
+
+  getPostById(id):Observable<Post>{
+    return this.hc.get<Post>('http://localhost:3000/usersdata/'+id)
   }
 }

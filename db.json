@@ -1,0 +1,146 @@
+{
+    "usersdata":[
+        {
+            "id":"1",
+            "email":"anudeepeloori@gmail.com",
+            "name":"Anudeep eloori",
+            "profilePic":"https://images.pexels.com",
+            "address":{
+                "streetname":"gummaconda colony",
+                "cityname":"Hyderabad",
+                "state":"Telangana",
+                "pincode":"500048"
+            },
+            "profession":"student",
+            "mobileno":"9342532823"
+        },
+        {
+            "id":"2",
+            "email":"ebrao2003@gmail.com",
+            "name":"Bhaskar Rao ",
+            "profilePic":"https://images.pexels.com/2.profile",
+            "address":{
+                "streetname":"keshav nagar colony",
+                "cityname":"Hyderabad",
+                "state":"Telangana",
+                "pincode":"500056"
+            },
+            "profession":"GM(operations)",
+            "mobileno":"9342582324"
+        },
+        {
+            "id":"3",
+            "email":"sridevi@gmail.com",
+            "name":"Sridevi",
+            "profilePic":"https://images.pexels.com/4.profilr",
+            "address":{
+                "streetname":"street-14",
+                "cityname":"Hyderabad",
+                "state":"Telangana",
+                "pincode":"500086"
+            },
+            "profession":"Teacher",
+            "mobileno":"6942532823"
+        },
+        {
+            "id":"4",
+            "email":"karthikeloori@gmail.com",
+            "name":"karthik eloori",
+            "profilePic":"https://images.pexels.com/3.profile",
+            "address":{
+                "streetname":"Ayyapa colony",
+                "cityname":"Hyderabad",
+                "state":"Telangana",
+                "pincode":"500093"
+            },
+            "profession":"student",
+            "mobileno":"8742532823"
+        },
+        
+        {
+            "id":"5",
+            "email":"venkatesh@gmail.com",
+            "name":"Venkatesh Bodavula",
+            "profilePic":"https://images.pexels.com/5.profilt",
+            "address":{
+                "streetname":"sangam vihar colony",
+                "cityname":"Vijayawada",
+                "state":"Andrapradesh",
+                "pincode":"413048"
+            },
+            "profession":"Employee",
+            "mobileno":"6971532823"
+        },
+        {
+            "id":"6",
+            "email":"aswini@gmail.com",
+            "name":"Aswini Bodavula",
+            "profilePic":"https://images.pexels.com/6.profiles",
+            "address":{
+                "streetname":"Prem nagar",
+                "cityname":"Bangalore",
+                "state":"Karnataka",
+                "pincode":"735048"
+            },
+            "profession":"Employee",
+            "mobileno":"9143532823"
+        },
+        {
+            "id":"7",
+            "email":"sindhubaru@gmail.com",
+            "name":"Sindhu Baru",
+            "profilePic":"https://images.pexels.com/7.profiles",
+            "address":{
+                "streetname":"Noor nagar",
+                "cityname":"Chirala",
+                "state":"Telangana",
+                "pincode":"512048"
+            },
+            "profession":"student",
+            "mobileno":"7232532823"
+        },
+        {
+            "id":"8",
+            "email":"bharath@gmail.com",
+            "name":"Bharath Eloori",
+            "profilePic":"https://images.pexels.com/8.profiles",
+            "address":{
+                "streetname":"ayyapa society",
+                "cityname":"khammam",
+                "state":"Telangana",
+                "pincode":"553048"
+            },
+            "profession":"student",
+            "mobileno":"8734232823"
+        },
+        {
+            "id":"9",
+            "email":"bhandav@gmail.com",
+            "name":"Bhandav Miryala",
+            "profilePic":"https://images.pexels.com/9.profiles",
+            "address":{
+                "streetname":"street-29",
+                "cityname":"Hyderabad",
+                "state":"Telangana",
+                "pincode":"500148"
+            },
+            "profession":"student",
+            "mobileno":"7162532823"
+        },
+        {
+            "id":"10",
+            "email":"pranavpaulvoy@gmail.com",
+            "name":"Pranav Paulvoy",
+            "profilePic":"https://images.pexels.com/10.profiles",
+            "address":{
+                "streetname":"geashwar colony",
+                "cityname":"Mumbai",
+                "state":"Maharastra",
+                "pincode":"334048"
+            },
+            "profession":"student",
+            "mobileno":"8942532823"
+        }
+
+    ]
+}

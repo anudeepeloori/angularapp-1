@@ -1,22 +1,18 @@
 <div class=" mt-5 mb-5 p-3" style="background-color:#efabaa;">
 <table class="table text-center mt-5 mb-5 ">
     <thead>
-        <tr>
+        <tr style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
             <th>ID</th>
-            <th>Name</th>
-            <th>Username</th>
             <th>Email Id</th>
-            <th>Address</th>
         </tr>
     </thead>
 
 <tbody>
-    <tr *ngFor="let postObj of myPosts">
-        <td>{{postObj.id}}</td>
-        <td>{{postObj.name}}</td>
-        <td>{{postObj.username}}</td>
-        <td>{{postObj.email}}</td>
-        <td>Street : {{postObj.address.street}} , City : {{postObj.address.city}} , Suite : {{postObj.address.suite}} , ZipCode : {{postObj.address.zipcode}} </td>
+    <tr *ngFor="let postObj of users">
+        <td style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+           <button class="btn btn-sm btn-warning p-3"  (click)="onSelectId(postObj.id)"> {{postObj.id}}</button>
+        </td>
+        <td style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">{{postObj.email}}</td>
     </tr>
 </tbody>
 </table>
