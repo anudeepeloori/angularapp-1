@@ -18,6 +18,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { TestComponent } from './test/test.component';
 import { Test2Component } from './test2/test2.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { ViewmobilesComponent } from './viewmobiles/viewmobiles.component';
+import { AddmobilesComponent } from './addmobiles/addmobiles.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { UserdetailsComponent } from './userdetails/userdetails.component';
     PagenotfoundComponent,
     TestComponent,
     Test2Component,
-    UserdetailsComponent
+    UserdetailsComponent,
+    ViewmobilesComponent,
+    AddmobilesComponent
   ],
   imports: [
     BrowserModule,

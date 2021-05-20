@@ -1,146 +1,202 @@
 {
-    "usersdata":[
-        {
-            "id":"1",
-            "email":"anudeepeloori@gmail.com",
-            "name":"Anudeep eloori",
-            "profilePic":"https://images.pexels.com",
-            "address":{
-                "streetname":"gummaconda colony",
-                "cityname":"Hyderabad",
-                "state":"Telangana",
-                "pincode":"500048"
-            },
-            "profession":"student",
-            "mobileno":"9342532823"
-        },
-        {
-            "id":"2",
-            "email":"ebrao2003@gmail.com",
-            "name":"Bhaskar Rao ",
-            "profilePic":"https://images.pexels.com/2.profile",
-            "address":{
-                "streetname":"keshav nagar colony",
-                "cityname":"Hyderabad",
-                "state":"Telangana",
-                "pincode":"500056"
-            },
-            "profession":"GM(operations)",
-            "mobileno":"9342582324"
-        },
-        {
-            "id":"3",
-            "email":"sridevi@gmail.com",
-            "name":"Sridevi",
-            "profilePic":"https://images.pexels.com/4.profilr",
-            "address":{
-                "streetname":"street-14",
-                "cityname":"Hyderabad",
-                "state":"Telangana",
-                "pincode":"500086"
-            },
-            "profession":"Teacher",
-            "mobileno":"6942532823"
-        },
-        {
-            "id":"4",
-            "email":"karthikeloori@gmail.com",
-            "name":"karthik eloori",
-            "profilePic":"https://images.pexels.com/3.profile",
-            "address":{
-                "streetname":"Ayyapa colony",
-                "cityname":"Hyderabad",
-                "state":"Telangana",
-                "pincode":"500093"
-            },
-            "profession":"student",
-            "mobileno":"8742532823"
-        },
-        
-        {
-            "id":"5",
-            "email":"venkatesh@gmail.com",
-            "name":"Venkatesh Bodavula",
-            "profilePic":"https://images.pexels.com/5.profilt",
-            "address":{
-                "streetname":"sangam vihar colony",
-                "cityname":"Vijayawada",
-                "state":"Andrapradesh",
-                "pincode":"413048"
-            },
-            "profession":"Employee",
-            "mobileno":"6971532823"
-        },
-        {
-            "id":"6",
-            "email":"aswini@gmail.com",
-            "name":"Aswini Bodavula",
-            "profilePic":"https://images.pexels.com/6.profiles",
-            "address":{
-                "streetname":"Prem nagar",
-                "cityname":"Bangalore",
-                "state":"Karnataka",
-                "pincode":"735048"
-            },
-            "profession":"Employee",
-            "mobileno":"9143532823"
-        },
-        {
-            "id":"7",
-            "email":"sindhubaru@gmail.com",
-            "name":"Sindhu Baru",
-            "profilePic":"https://images.pexels.com/7.profiles",
-            "address":{
-                "streetname":"Noor nagar",
-                "cityname":"Chirala",
-                "state":"Telangana",
-                "pincode":"512048"
-            },
-            "profession":"student",
-            "mobileno":"7232532823"
-        },
-        {
-            "id":"8",
-            "email":"bharath@gmail.com",
-            "name":"Bharath Eloori",
-            "profilePic":"https://images.pexels.com/8.profiles",
-            "address":{
-                "streetname":"ayyapa society",
-                "cityname":"khammam",
-                "state":"Telangana",
-                "pincode":"553048"
-            },
-            "profession":"student",
-            "mobileno":"8734232823"
-        },
-        {
-            "id":"9",
-            "email":"bhandav@gmail.com",
-            "name":"Bhandav Miryala",
-            "profilePic":"https://images.pexels.com/9.profiles",
-            "address":{
-                "streetname":"street-29",
-                "cityname":"Hyderabad",
-                "state":"Telangana",
-                "pincode":"500148"
-            },
-            "profession":"student",
-            "mobileno":"7162532823"
-        },
-        {
-            "id":"10",
-            "email":"pranavpaulvoy@gmail.com",
-            "name":"Pranav Paulvoy",
-            "profilePic":"https://images.pexels.com/10.profiles",
-            "address":{
-                "streetname":"geashwar colony",
-                "cityname":"Mumbai",
-                "state":"Maharastra",
-                "pincode":"334048"
-            },
-            "profession":"student",
-            "mobileno":"8942532823"
-        }
-
-    ]
+  "mobiles": [
+    {
+      "id": "1",
+      "productTitle": "Samsung",
+      "productBrand": " Samsung Galaxy S20",
+      "productPrice": "20,000",
+      "productImage": "https://www.reliancedigital.in/medias/Samsung-F62-Gray-6GB-128GB-Smart-Phone-491947006-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0Nzc2OTd8aW1hZ2UvanBlZ3xpbWFnZXMvaDMwL2g1Ni85NDg3NjU0NDUzMjc4LmpwZ3xiNTg0NWMyZDA4MjNhMjZiNTViMzgxMWVkNzhkMDljYzhhODkxNThjYjA3MTY5YTY5OGU4MDQzN2IwYTE4YjNm"
+    },
+    {
+      "id": "2",
+      "productTitle": "Samsung",
+      "productBrand": " Samsung Galaxy S30",
+      "productPrice": "30,000",
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTkBGzfkKkOYJVYQ8doKsekLbg4-hxvhU03lnTJ3ANTVtTCjbbjfGx_KwLWDIHC_F_bZwEJzISQbg5ZcJBdgIq0Jv3264PxYYpAojNS&usqp=CAE"
+    },
+    {
+      "id": "3",
+      "productTitle": "Honor",
+      "productBrand": "Honor 11 ",
+      "productPrice": "15,000",
+      "productImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQbP0LnZv3qE1Rfi-Odh1gXeUG2KgYcy8f1OuyWpUW541vobmZKGc_Se_ZGWiSvgmxrryXb1t6Djd8u-SbOtB3Dc9OTpQZbL13NOddtnbKIJRc_Z9mMr_8prtRZ1707&usqp=CAE"
+    },
+    {
+      "id": "4",
+      "productTitle": "Iphone-11",
+      "productBrand": " Iphone-11 128Gb",
+      "productPrice": "50,000",
+      "productImage": "https://www.reliancedigital.in/medias/iPhone-11-64GB-Green-491901643-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDM0Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaGVkL2hmOC85NDIxOTEzODgyNjU0LmpwZ3xhNjFjNWUwZjEyYjQ2ZDM2Y2U5MmYwNDhiOGYzN2NmMjU2ZjNjMGU5ODE3ZmIzNzliMjc4ODM5MTcyMjU4NWU3"
+    },
+    {
+      "id": "5",
+      "productTitle": "OnePlus",
+      "productBrand": " OnePlus Nord",
+      "productPrice": "35,000",
+      "productImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSUuEBAPL5zK9DxOSP7wVmZvmsrEkreYBElrHbiRWzi-5E5I7xIRofTaQHyu__yckyryhzs95_i71YBzRwNaia3mfZaZkeh7SZfUL4OZqZRmwQgUQ6Xnf4OdCriEFg&usqp=CAE"
+    },
+    {
+      "id": "6",
+      "productTitle": "Google pixel",
+      "productBrand": " Google pixel - 4a",
+      "productPrice": "40,000",
+      "productImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRBTGWt2DocSe4zyFYWDFFrqB7eSl8l-UK6Wg55jGeC0AH2mdzBjsHleb7UJUtyolOS-_NDvwRQRWA8wVx7A1cYqjJD81KVZkqkKwvW-xFGAs5IAFDj3T_apl3QcBE&usqp=CAE"
+    },
+    {
+      "productTitle": "Vivo",
+      "productBrand": "Vivo V15",
+      "productPrice": "19090",
+      "productImage": "https://assets.gopaisa.com/unsafe/0x0/https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/honor-9a-price-offers-amazon.jpg",
+      "id": "bBBfSg6"
+    },
+    {
+      "productTitle": "Oppo",
+      "productBrand": "Oppo Reno 10",
+      "productPrice": "22000",
+      "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg",
+      "id": "lwN7fWV"
+    }
+  ],
+  "usersdata": [
+    {
+      "id": "1",
+      "email": "anudeepeloori@gmail.com",
+      "name": "Anudeep eloori",
+      "profilePic": "https://images.pexels.com",
+      "address": {
+        "streetname": "gummaconda colony",
+        "cityname": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500048"
+      },
+      "profession": "student",
+      "mobileno": "9342532823"
+    },
+    {
+      "id": "2",
+      "email": "ebrao2003@gmail.com",
+      "name": "Bhaskar Rao ",
+      "profilePic": "https://images.pexels.com/2.profile",
+      "address": {
+        "streetname": "keshav nagar colony",
+        "cityname": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500056"
+      },
+      "profession": "GM(operations)",
+      "mobileno": "9342582324"
+    },
+    {
+      "id": "3",
+      "email": "sridevi@gmail.com",
+      "name": "Sridevi",
+      "profilePic": "https://images.pexels.com/4.profilr",
+      "address": {
+        "streetname": "street-14",
+        "cityname": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500086"
+      },
+      "profession": "Teacher",
+      "mobileno": "6942532823"
+    },
+    {
+      "id": "4",
+      "email": "karthikeloori@gmail.com",
+      "name": "karthik eloori",
+      "profilePic": "https://images.pexels.com/3.profile",
+      "address": {
+        "streetname": "Ayyapa colony",
+        "cityname": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500093"
+      },
+      "profession": "student",
+      "mobileno": "8742532823"
+    },
+    {
+      "id": "5",
+      "email": "venkatesh@gmail.com",
+      "name": "Venkatesh Bodavula",
+      "profilePic": "https://images.pexels.com/5.profilt",
+      "address": {
+        "streetname": "sangam vihar colony",
+        "cityname": "Vijayawada",
+        "state": "Andrapradesh",
+        "pincode": "413048"
+      },
+      "profession": "Employee",
+      "mobileno": "6971532823"
+    },
+    {
+      "id": "6",
+      "email": "aswini@gmail.com",
+      "name": "Aswini Bodavula",
+      "profilePic": "https://images.pexels.com/6.profiles",
+      "address": {
+        "streetname": "Prem nagar",
+        "cityname": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "735048"
+      },
+      "profession": "Employee",
+      "mobileno": "9143532823"
+    },
+    {
+      "id": "7",
+      "email": "sindhubaru@gmail.com",
+      "name": "Sindhu Baru",
+      "profilePic": "https://images.pexels.com/7.profiles",
+      "address": {
+        "streetname": "Noor nagar",
+        "cityname": "Chirala",
+        "state": "Telangana",
+        "pincode": "512048"
+      },
+      "profession": "student",
+      "mobileno": "7232532823"
+    },
+    {
+      "id": "8",
+      "email": "bharath@gmail.com",
+      "name": "Bharath Eloori",
+      "profilePic": "https://images.pexels.com/8.profiles",
+      "address": {
+        "streetname": "ayyapa society",
+        "cityname": "khammam",
+        "state": "Telangana",
+        "pincode": "553048"
+      },
+      "profession": "student",
+      "mobileno": "8734232823"
+    },
+    {
+      "id": "9",
+      "email": "bhandav@gmail.com",
+      "name": "Bhandav Miryala",
+      "profilePic": "https://images.pexels.com/9.profiles",
+      "address": {
+        "streetname": "street-29",
+        "cityname": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500148"
+      },
+      "profession": "student",
+      "mobileno": "7162532823"
+    },
+    {
+      "id": "10",
+      "email": "pranavpaulvoy@gmail.com",
+      "name": "Pranav Paulvoy",
+      "profilePic": "https://images.pexels.com/10.profiles",
+      "address": {
+        "streetname": "geashwar colony",
+        "cityname": "Mumbai",
+        "state": "Maharastra",
+        "pincode": "334048"
+      },
+      "profession": "student",
+      "mobileno": "8942532823"
+    }
+  ]
 }

@@ -10,14 +10,9 @@ import { product } from '../models/product.model';
 export class MobilesComponent implements OnInit {
 
 
-  mobiles:product[]=[];
-  constructor(private msObj:MobilesService) { }
-
+  
   ngOnInit(): void {
-    this.msObj.getMobilesData().subscribe(
-      data=>{this.mobiles=data;},
-      err=>{console.log("error is",err)}
-    )
+   
   }
 
   
