@@ -1,10 +1,10 @@
 {
   "mobiles": [
     {
-      "id": "1",
-      "productTitle": "Samsung",
+      "productTitle": "SAMSUNG",
       "productBrand": " Samsung Galaxy S20",
       "productPrice": "20,000",
+      "id": "1",
       "productImage": "https://www.reliancedigital.in/medias/Samsung-F62-Gray-6GB-128GB-Smart-Phone-491947006-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0Nzc2OTd8aW1hZ2UvanBlZ3xpbWFnZXMvaDMwL2g1Ni85NDg3NjU0NDUzMjc4LmpwZ3xiNTg0NWMyZDA4MjNhMjZiNTViMzgxMWVkNzhkMDljYzhhODkxNThjYjA3MTY5YTY5OGU4MDQzN2IwYTE4YjNm"
     },
     {
@@ -48,13 +48,6 @@
       "productPrice": "19090",
       "productImage": "https://assets.gopaisa.com/unsafe/0x0/https://gpcdn.ams3.cdn.digitaloceanspaces.com/deals/honor-9a-price-offers-amazon.jpg",
       "id": "bBBfSg6"
-    },
-    {
-      "productTitle": "Oppo",
-      "productBrand": "Oppo Reno 10",
-      "productPrice": "22000",
-      "productImage": "https://priceintanzania.com/wp-content/uploads/2019/04/Samsung-Galaxy-A70-Price-in-Tanzania.jpg",
-      "id": "lwN7fWV"
     }
   ],
   "usersdata": [
