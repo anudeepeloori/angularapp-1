@@ -4,14 +4,14 @@
 <div class="row mb-5 text-white">
     <div class="col-sm-2 col-md-3"></div>
     <div class="col-sm-8 col-md-6">
-        <form class="mb-5" >
+        <form class="mb-5" #ref="ngForm" (ngSubmit)="onLogin(ref)" >
             <div class="mb-3">
                 <label for="un" class="form-label">Username</label>
-                <input type="text" class="form-control" id="un" name="username" >
+                <input type="text" class="form-control" id="un" name="username" ngModel >
             </div>
             <div class="mb-3">
                 <label for="pw" class="form-label">Password</label>
-                <input type="password" class="form-control" id="pw"  name="password">
+                <input type="password" class="form-control" id="pw"  name="password" ngModel>
             </div>
 
             <div class="form-check mt-5">
@@ -21,7 +21,7 @@
 
             <a class="m-4 text-center" href="#">Forgot Password</a>
 
-            <button class="btn btn-success d-block mx-auto m-5">Login</button>
+            <button type="submit" class="btn btn-success d-block mx-auto m-5">Login</button>
         </form>
     </div>
     <div class="col-sm-2 col-md-3"></div>

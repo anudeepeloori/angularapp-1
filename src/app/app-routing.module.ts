@@ -37,6 +37,7 @@ const routes: Routes = [
   {path:'newusers',component:Test2Component},
   {path:'test/:id',component:UserdetailsComponent},
   { path:'', redirectTo:'/home',pathMatch:'full'},
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) },
   {path:'**', component:PagenotfoundComponent}
 ];
 
