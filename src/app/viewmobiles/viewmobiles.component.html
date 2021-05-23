@@ -1,5 +1,7 @@
+<i class="fas fa-search"></i> 
+<input type="text" name="productTitle" placeholder=" Search by brand" class="form-control mt-2 d-inline mx-auto w-50" [(ngModel)]="searchTerm">
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 mt-5 mb-5 ">
-    <div class="col" *ngFor="let mobileObj of mobiles">
+    <div class="col" *ngFor="let mobileObj of mobiles | search :searchTerm ">
         <app-product-details [productObj]=mobileObj ></app-product-details>
     </div>
 

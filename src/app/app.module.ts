@@ -20,6 +20,7 @@ import { Test2Component } from './test2/test2.component';
 import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { ViewmobilesComponent } from './viewmobiles/viewmobiles.component';
 import { AddmobilesComponent } from './addmobiles/addmobiles.component';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AddmobilesComponent } from './addmobiles/addmobiles.component';
     Test2Component,
     UserdetailsComponent,
     ViewmobilesComponent,
-    AddmobilesComponent
+    AddmobilesComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
